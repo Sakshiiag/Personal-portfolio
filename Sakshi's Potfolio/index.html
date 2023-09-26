@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Sakshi's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="https://github.com/Sakshiiag">Projects</a></li>
+          <li><a href="#contactme">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, My name is
+        <span class="purple"> Sakshi</span>
+        <div>and I am a passionate</div>
+
+        <span id="element"></span>
+        <div class="button">
+          <button class="btn">Downlode resume</button>
+          <button class="btn">GitHub</button>
+        </div>
+      </div>
+
+      <div class="rightsection">
+        <img align="right" alt="Coding" width="400"
+          src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+
+      </div>
+    </section>
+
+    <hr />
+    <section class="secoundsection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Work Experience</h1>
+      <div data-aos="fade-in" data-aos-duration="4000" class="box">
+        <div class="verticle">
+          <img class="img-top" src="crazywebdev.png" alt="" />
+          <div class="verticle-title">Frontend developer</div>
+          <div class="verticle-desc">
+            As a Frontend Developer at CrazyWebDev Technology, I harness the
+            power of HTML and CSS to create stunning and user-friendly web
+            interfaces, delivering exceptional digital experiences.
+          </div>
+        </div>
+
+        <div class="verticle">
+          <img class="img-top" src="bharatintern.png" alt="" />
+          <div class="verticle-title">Web developer</div>
+          <div class="verticle-desc">
+            I am a Web developer at BharatIntern Technology, where I
+            create innovative web applications and software solutions,
+            combining front-end and back-end expertise to drive digital
+            success
+          </div>
+        </div>
+        <div class="verticle">
+          <img class="img-top" src="gdsc.png" alt="" />
+          <div class="verticle-title">GDSC</div>
+          <div class="verticle-desc">
+            I am an active member of GDSC (Google Developer Student Clubs)
+            specializing in web development, where I collaborate and innovate
+            on exciting web projects, fostering growth and learning.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="sak.img.jpg" alt="my_img" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Greetings! I'm Sakshi Agarwal, a dedicated Full Stack Web Developer with a passion for crafting
+                exceptional digital experiences through the power of the MERN stack. With a keen eye for detail and a
+                knack for problem-solving, I am committed to delivering innovative solutions that transform ideas into
+                functional and user-friendly web applications.
+              </p>
+              <div class="tab-title">
+                <p class="tab-links active-links" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Frontend</span><br />Frontend Developement using
+                    HTML, CSS and Javascript
+                  </li>
+                  <li>
+                    <span>back-end</span><br />Back-end Developement using
+                    MERN
+                  </li>
+                  <li>
+                    <span>compatative coading</span><br />Compatative coding
+                    using C C++
+                  </li>
+                  <li><span>DSA</span><br />DSA using C++</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>Frontend developer(2023-current)</span><br />Frontend Developer at crazywebdev Technology
+                  </li>
+                  <li>
+                    <span>Full-stack(2023)</span><br />Full-stack Developer at
+                    BharatIntern
+                  </li>
+                  <li>
+                    <span>Full-stack(2023)</span><br />Full-stack devloper at
+                    technohacks
+                  </li>
+
+                  <li>
+                    <span>GDSC(2023-current)</span><br />Member of GDSC_BU in web development domain
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>Btech(2021-25)</span><br />Bachlors of Technology
+                    from (ECE) at Bundelkhand University
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-------------services------------->
+      <div id="services" class="ser">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p>
+                A passionate and creative web designer dedicated to crafting captivating and user-centric digital
+                experiences. With a strong eye for aesthetics, a commitment to usability, and a deep understanding of
+                design principles, I bring ideas to life through visually stunning and functional websites.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-crop"></i>
+              <h2>UI/UX Design</h2>
+              <p>
+                A dedicated UI/UX Designer with a passion for creating seamless and delightful digital experiences. My mission is to bridge the gap between functionality and aesthetics, ensuring that users not only achieve their goals but also enjoy the journey. I thrive on designing intuitive and visually appealing interfaces that leave a lasting impression.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-android"></i>
+              <h2>App Design</h2>
+              <p>
+                A passionate and innovative App Designer with a deep-rooted commitment to crafting user-centric and visually appealing mobile applications. My mission is to transform ideas into seamless, engaging, and intuitive app experiences that captivate users and drive success. I thrive on the creative process of designing applications that not only meet but exceed user expectations.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="./food.png">
+              <div class="layer">
+                <h3>Social Media App</h3>
+                <p>
+                  The app connects you to the talented people around the world.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./amz.webp">
+              <div class="layer">
+                <h3>Music App</h3>
+                <p>
+                  The app connects you to the talented people around the world.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./todo.jpg">
+              <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>
+                  The app connects you to the talented people around the world.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </section>
+
+    <section>
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p> <i class="fas-fa-paper-plane">conatct @sakshiag057@gmail.com</i></p>
+              <p> <i class="fas fa-phone-square-alt">+91 9125455345</i></p>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://twitter.com/sakshiiee_ag?t=czOhBplJ1oeLVxBRKvFB9A&s=09"><i
+                    class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/sakshi-agarwal-82213b224"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" id="Your Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+    <div class="footer-rights">
+      WWW.Sakshi's Portfolio.com | All Rights Reserved &#169;
+    </div>
+  </footer>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-links");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-links");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxMbAk-bktVSe1uLaTgrOw4nZp-9Soa8uPKRwLqFfSpUIV2TxJpby-x-gg1QGf9Cx1wzQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "Web Developer",
+        "MERN Developer",
+        "DSA problebm solver",
+        "Fullstack Developer ",
+      ],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
